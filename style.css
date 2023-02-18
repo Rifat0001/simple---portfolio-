@@ -145,19 +145,20 @@ nav ul li {
 /* footer started here  */
 
 .footer {
-    max-width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
-    height: 400px;
     display: flex;
-    padding-top: 100px;
+    height: 60vh;
 }
 
 .left-side {
     width: 50%;
+    margin-top: 50px;
 }
 
 .right-side {
     width: 50%;
+    margin-top: 50px;
 }
 
 .text,
