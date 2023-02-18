@@ -1,0 +1,116 @@
+/* =====================
+   Mobile Device 
+   ===================== */
+@media screen and (max-width:576px) {
+
+    /* =====================
+   Header Section
+   ===================== */
+    .navbar {
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    nav {
+        margin-top: 10px;
+    }
+
+    .banner {
+        flex-direction: column;
+        margin: 0px 20px;
+    }
+
+    .left-side {
+        text-align: center;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .right-side,
+    .right-side img {
+        width: 100%;
+    }
+
+    .left-side h1 {
+        line-height: 90px;
+    }
+
+    .banner-btn-2 {
+        margin-top: 10px;
+    }
+
+    /* =====================
+   About Section
+   ===================== */
+    .about {
+        margin-top: 0;
+    }
+
+    .disclaimer {
+        padding: 20px;
+    }
+
+    .info {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* =====================
+    Skill Section
+   ===================== */
+    .what {
+        margin: -60px auto;
+    }
+
+    .skills {
+        flex-direction: column;
+    }
+
+    .skill {
+        margin-bottom: 20px;
+    }
+
+    /* =====================
+   Resume Section
+   ===================== */
+    .resume-section {
+        margin-top: 100px;
+    }
+
+    .my-intro {
+        flex-direction: column;
+        margin: 0 20px;
+    }
+
+    .experience {
+        margin-left: 0;
+    }
+
+    /* =====================
+   Footer Section
+   ===================== */
+    .footer {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 20px;
+    }
+
+    .left-side {
+        width: 100%;
+    }
+
+    .right-side {
+        width: 100%;
+        text-align: center;
+    }
+
+    .text,
+    .email,
+    .textarea {
+        width: 199px;
+    }
+
+    .hide {
+        display: none;
+    }
+}
